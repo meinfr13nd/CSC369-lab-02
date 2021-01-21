@@ -1,0 +1,100 @@
+1, Pink Floyd, 690.05
+2, Soundgarden, 735.03
+3, Dire Straits, 760.21
+4, Dixie Chicks, 837.0
+5, The Beastie Boys, 647.37
+6, Cream, 711.94
+7, Coldplay, 776.33
+8, Foreigner, 263.13
+9, King Crimson, 855.98
+10, Alice In Chains, 318.54
+11, Black Sabbath, 849.67
+12, Janis Joplin and Big Brother and the Holding Company, 628.76
+13, Judas Priest, 321.1
+14, Black Sabbath, 436.37
+15, Isaac Hayes and the Movement, 532.44
+16, Soundgarden, 363.44
+17, Aerosmith, 561.16
+18, Primus, 977.96
+19, The Pretenders, 983.33
+20, Harold Melvin and the Blue Notes, 508.32
+21, Primus, 755.41
+22, Yes, 600.54
+23, Earth Wind and Fire, 108.0
+24, Blondie, 931.66
+25, Bruce Springsteen & The E Street Band, 588.96
+26, Pink Floyd, 371.16
+27, Pearl Jam, 705.73
+28, The Jackson Five, 815.74
+29, Primus, 737.86
+30, Red Hot Chili Peppers, 694.17
+31, Tool, 900.83
+32, Black Sabbath, 581.2
+33, The Cure, 956.58
+34, Bob Marley and the Wailers, 781.84
+35, Blind Faith, 742.15
+36, Little Feat, 792.51
+37, Blind Faith, 873.66
+38, David Bowie and The Spiders From Mars, 129.55
+39, The Clash, 305.41
+40, The Velvet Underground, 207.0
+41, Soundgarden, 103.9
+42, Nirvana, 345.37
+43, The Jackson Five, 124.31
+44, Guns 'N Roses, 342.96
+45, Janis Joplin and Big Brother and the Holding Company, 687.68
+46, David Bowie and The Spiders From Mars, 780.02
+47, Pearl Jam, 725.93
+48, The Pretenders, 217.55
+49, Lynyrd Skynyrd, 857.99
+50, Guns 'N Roses, 514.7
+51, Rage Against The Machine, 674.05
+52, Dire Straits, 202.99
+53, Boston, 201.63
+54, Rage Against The Machine, 247.39
+55, Metallica, 128.34
+56, Duran Duran, 548.47
+57, Underworld, 977.44
+58, The Allman Brothers, 57.33
+59, Frank Zappa and the Mothers of Invention, 963.0
+60, Slayer, 227.17
+61, Led Zeppelin, 517.0
+62, R.E.M., 306.55
+63, James Brown and the JBs, 222.85
+64, Yes, 266.99
+65, Creedence Clearwater Revival, 364.04
+66, Sex Pistols, 703.73
+67, Harold Melvin and the Blue Notes, 405.17
+68, The Beatles, 253.57
+69, Frank Zappa and the Mothers of Invention, 36.71
+70, The Beach Boys, 340.21
+71, Thievery Corporation, 648.92
+72, The Band, 447.24
+73, Genesis, 683.52
+74, The Jimi Hendrix Experience, 882.89
+75, Pink Floyd, 215.15
+76, The Beatles, 706.03
+77, Duran Duran, 565.97
+78, Crosby, Stills, Nash and Young, 616.07
+79, Stone Temple Pilots, 306.79
+80, Bruce Springsteen & The E Street Band, 808.92
+81, The Police, 131.63
+82, Duran Duran, 404.37
+83, Isaac Hayes and the Movement, 260.42
+84, Slayer, 886.57
+85, The Doors, 699.91
+86, The Beach Boys, 730.52
+87, The Beatles, 183.09
+88, Van Halen, 794.36
+89, Orbital, 400.16
+90, Parliament Funkadelic, 966.09
+91, Nirvana, 300.96
+92, Earth Wind and Fire, 608.31
+93, Van Halen, 429.23
+94, Van Halen, 321.68
+95, The Talking Heads, 381.77
+96, Prince and the Revolution, 988.72
+97, Blind Faith, 730.79
+98, Underworld, 249.24
+99, Bon Jovi, 787.5
+100, ZZ Top, 193.78
