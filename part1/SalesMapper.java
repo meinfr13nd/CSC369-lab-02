@@ -6,7 +6,7 @@ import org.apache.log4j.Logger;
 
 public class SalesMapper extends
           Mapper<LongWritable, Text, Text, IntWritable> {
-   private static Logger THE_LOGGER = Logger.getLogger(DivisibleByThreeDriver.class);
+   private static Logger THE_LOGGER = Logger.getLogger(SalesByDayDriver.class);
 
    @Override
    public void map(LongWritable key, Text value, Context context)

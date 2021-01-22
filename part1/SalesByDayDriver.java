@@ -6,10 +6,12 @@ import org.apache.hadoop.io.*;
 import org.apache.hadoop.mapreduce.*;
 import org.apache.hadoop.mapreduce.lib.output.*;
 import org.apache.hadoop.mapreduce.lib.input.*;
+import java.time.LocalDateTime;
+import java.time.temporal.ChronoUnit;
 
 public class SalesByDayDriver extends Configured implements Tool {
 
-    private static final Logger THE_LOGGER = Logger.getLogger(DivisibleByThreeDriver.class);
+    private static final Logger THE_LOGGER = Logger.getLogger(SalesByDayDriver.class);
 
     @Override
     public int run(String[] args) throws Exception {
@@ -33,11 +35,17 @@ public class SalesByDayDriver extends Configured implements Tool {
         if (args.length != 2) {
             throw new IllegalArgumentException("usage: <input> <output>");
         }
+        LocalDateTime start = LocalDateTime.now();
 
         THE_LOGGER.info("inputDir = " + args[0]);
         THE_LOGGER.info("outputDir = " + args[1]);
-        int returnStatus = ToolRunner.run(new DivisibleByThreeDriver(), args);
+        int returnStatus = ToolRunner.run(new SalesByDayDriver(), args);
+
         THE_LOGGER.info("returnStatus=" + returnStatus);
+
+        LocalDateTime end = LocalDateTime.now();
+        long diff = start.until(end, ChronoUnit.MILLIS);
+        THE_LOGGER.info("These sales took " + diff + " milliseconds to process in a non-distributed way.");
         System.exit(returnStatus);
     }
 }
