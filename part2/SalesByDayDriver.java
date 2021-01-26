@@ -24,6 +24,7 @@ public class SalesByDayDriver extends Configured implements Tool {
         job.setMapOutputValueClass(IntWritable.class); //output value class for map function
         job.setMapperClass(SalesMapper.class);//sets the mapper
         job.setReducerClass(SalesReducer.class);//sets the reducer
+        job.setCombinerClass(SalesReducer.class);
         FileInputFormat.setInputPaths(job, new Path(args[0]));
         FileOutputFormat.setOutputPath(job, new Path(args[1]));
         boolean status = job.waitForCompletion(true); //runs the job, returns true if executed successfully 
@@ -45,7 +46,7 @@ public class SalesByDayDriver extends Configured implements Tool {
 
         LocalDateTime end = LocalDateTime.now();
         long diff = start.until(end, ChronoUnit.MILLIS);
-        THE_LOGGER.info("These sales took " + diff + " milliseconds to process in a distributed  (without a combiner).");
+        THE_LOGGER.info("These sales took " + diff + " milliseconds to process in a distributed  (with a combiner).");
         System.exit(returnStatus);
     }
 }
